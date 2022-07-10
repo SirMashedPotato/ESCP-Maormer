@@ -28,7 +28,7 @@
 							<cost>150</cost>
 							<incident>ESCP_MaormerJoins</incident>
 						</AchievementsExpanded.Reward_MapIncident>
-						
+
 						<!-- Colonist -->
 									
 						<AchievementsExpanded.AchievementDef>
@@ -65,6 +65,25 @@
 							<texPath>Achievements/ESCP_AchievementMaormer_MaormerLeviathan</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementMaormer_ReefViperTamer</defName>
+							<label>No Altmer Allowed</label>
+							<description>Have two tame reef vipers</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundMaormer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<raceDefs>
+									<li>
+										<key>ESCP_ReefViper</key>
+										<value>2</value>
+									</li>
+								</raceDefs>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementMaormer_ReefViperTamer</texPath>
+							<points>5</points>
+						</AchievementsExpanded.AchievementDef>
 
 						<!-- Kills -->
 
@@ -80,6 +99,21 @@
 							</tracker>
 
 							<texPath>Achievements/ESCP_AchievementMaormer_MaormerSlayer</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementMaormer_ReefViperSlayer</defName>
+							<label>Fish Food</label>
+							<description>Slay 25 reef vipers</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundMaormer</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<raceDef>ESCP_ReefViper</raceDef>
+								<count>25</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementMaormer_ReefViperSlayer</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 

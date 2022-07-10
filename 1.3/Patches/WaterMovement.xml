@@ -11,7 +11,7 @@
 			<operations>
 	
 				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_MaormerRace"]/statBases</xpath>
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ESCP_MaormerRace" or defName="ESCP_ReefViper"]/statBases</xpath>
 					<value>
 						<SwimSpeed>4</SwimSpeed>
 					</value>

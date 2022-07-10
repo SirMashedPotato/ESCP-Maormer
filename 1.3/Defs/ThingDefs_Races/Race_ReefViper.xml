@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ESCP_ReefViper</defName>
+    <label>reef viper</label>
+    <description>A large predatory snake. Cobras can be highly aggressive if provoked, and their bite injects toxic venom into the victim.</description>
+    <statBases>
+      <MoveSpeed>4.0</MoveSpeed>
+      <MarketValue>300</MarketValue>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
+    </statBases>
+    <uiIconScale>1.0</uiIconScale>
+    <tools>
+      <li>
+        <label>venom-fangs</label>
+        <capacities>
+          <li>ToxicBite</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>ESCP_EggReefViperFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>15</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>1~3</eggCountRange>
+      </li>
+	  <li Class="ESCP_RaceTools.CompProperties_MeditationPulse" MayRequire="Ludeon.RimWorld.Royalty">
+        <focusDef>ESCP_MaormerSerpent</focusDef>
+		<amount>0.01</amount>
+		<ticksBetween>900</ticksBetween>
+		<radius>3</radius>
+		<fleck>PsycastAreaEffect</fleck>
+      </li>
+    </comps>
+    <race>
+      <body>Snake</body>	<!-- TODO -->
+      <predator>true</predator>
+      <maxPreyBodySize>1.2</maxPreyBodySize>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHungerRate>0.15</baseHungerRate>
+      <baseHealthScale>0.8</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <wildness>0.9</wildness>
+      <petness>0.01</petness>
+      <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.75</manhunterOnDamageChance>
+      <nameOnTameChance>1</nameOnTameChance>
+      <lifeExpectancy>40</lifeExpectancy>
+      <lifeStageAges>	<!-- TODO ancient lifestage -->
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Cobra_Wounded</soundWounded>
+          <soundDeath>Pawn_Cobra_Death</soundDeath>
+          <soundCall>Pawn_Cobra_Call</soundCall>
+          <soundAngry>Pawn_Cobra_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalExotic</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ESCP_ReefViper</defName>
+    <label>reef viper</label>
+    <race>ESCP_ReefViper</race>
+    <combatPower>95</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ESCP_ReefViper/ESCP_ReefViper_Female</texPath>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ESCP_ReefViper/ESCP_ReefViper_Female</texPath>
+          <drawSize>1.25</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>1.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ESCP_ReefViper/ESCP_ReefViper_Male</texPath>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+		<femaleGraphicData>
+			<texPath>Things/Pawn/Animal/ESCP_ReefViper/ESCP_ReefViper_Female</texPath>
+			<drawSize>1.8</drawSize>
+		</femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>
