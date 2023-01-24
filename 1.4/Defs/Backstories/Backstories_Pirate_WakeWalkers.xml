@@ -7,195 +7,195 @@
 		
 	-->
 
-	<AlienRace.BackstoryDef Abstract="True" Name="ESCP_MaormerWakeWalkersAdultBackstory_base" ParentName="ESCP_Maormer_AdultBackstory_base">
+	<AlienRace.AlienBackstoryDef Abstract="True" Name="ESCP_MaormerWakeWalkersAdultBackstory_base" ParentName="ESCP_Maormer_AdulthoodBase">
 		<spawnCategories>
           <li>ESCP_MaormerPirate_WakeWalkers_Backstory</li>
         </spawnCategories>
-		<forcedTraits>
-		</forcedTraits>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
 		<workDisables>
 			<li>Artistic</li>
 			<li>PlantWork</li>
 		</workDisables>
-		<disallowedTraits>
+		<disallowedTraitsChance>
             <li>
                 <defName>Wimp</defName>
             </li>
-        </disallowedTraits>
+        </disallowedTraitsChance>
 		<forcedHediffs>
 		</forcedHediffs>
 		<maleCommonality>40</maleCommonality>
 		<femaleCommonality>40</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- ==================== [Melee] ==================== -->
 
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerBlademasterBackstory</defName>
 		<title>Wake Walkers blademaster</title>
 		<titleShort>blademaster</titleShort>
-		<baseDescription>Always nimble on [PAWN_possessive] feet, [PAWN_nameDef] was a whirlwind of blades during combat. Those that escaped [PAWN_possessive] blades, would soon be felled by the beasts of the Wake Walkers.</baseDescription>
+		<baseDesc>Always nimble on [PAWN_possessive] feet, [PAWN_nameDef] was a whirlwind of blades during combat. Those that escaped [PAWN_possessive] blades, would soon be felled by the beasts of the Wake Walkers.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>6</amount>
+				<key>Melee</key>
+				<value>6</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Nimble</defName>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerSentinelBackstory</defName>
 		<title>Wake Walkers sentinel</title>
 		<titleShort>sentinel</titleShort>
-		<baseDescription>Once a guard at one of the many Maormeri embassies, [PAWN_nameDef] decided to turn to a life of piracy, as working conditions constantly grew worse. [PAWN_pronoun] joined the Wake Walkers, which was a rather odd choice, as [PAWN_nameDef] was neither nimble nor good with animals.</baseDescription>
+		<baseDesc>Once a guard at one of the many Maormeri embassies, [PAWN_nameDef] decided to turn to a life of piracy, as working conditions constantly grew worse. [PAWN_pronoun] joined the Wake Walkers, which was a rather odd choice, as [PAWN_nameDef] was neither nimble nor good with animals.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- ==================== [Ranged] ==================== -->
 
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerArcherBackstory</defName>
 		<title>Wake Walkers archer</title>
 		<titleShort>archer</titleShort>
-		<baseDescription>[PAWN_nameDef] wasn't content with just turning someone into a pincushion, [PAWN_pronoun] wanted to make them suffer a bit. Seeing as the Wake Walkers often utilised animals, coming across various venoms wasn't exactly an issue.</baseDescription>
+		<baseDesc>[PAWN_nameDef] wasn't content with just turning someone into a pincushion, [PAWN_pronoun] wanted to make them suffer a bit. Seeing as the Wake Walkers often utilised animals, coming across various venoms wasn't exactly an issue.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
+				<key>Shooting</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>2</amount>
+				<key>Animals</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Nimble</defName>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- ==================== [Intellectual] ==================== -->
 
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerMenderBackstory</defName>
 		<title>Wake Walkers mender</title>
 		<titleShort>mender</titleShort>
-		<baseDescription>As a member of the Wake Walkers, [PAWN_nameDef] had to not only tend to [PAWN_possessive] fellow crew members, but also the beasts they fought alongside. Luckily [PAWN_pronoun] was used to dealing with animals, especially animals that didn't want to be dealt with.</baseDescription>
+		<baseDesc>As a member of the Wake Walkers, [PAWN_nameDef] had to not only tend to [PAWN_possessive] fellow crew members, but also the beasts they fought alongside. Luckily [PAWN_pronoun] was used to dealing with animals, especially animals that didn't want to be dealt with.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Medicine</defName>
-				<amount>2</amount>
+				<key>Medicine</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<key>Intellectual</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>2</amount>
+				<key>Animals</key>
+				<value>2</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- ==================== [Animals] ==================== -->
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerBeastmasterBackstory</defName>
 		<title>Wake Walkers beastmaster</title>
 		<titleShort>beastmaster</titleShort>
-		<baseDescription>As a beastmaster, [PAWN_nameDef] was one of the most important members of the Wake Walkers, excluding the captain of course. [PAWN_pronoun] had assembled a small menagerie for use in combat, from giant snakes, to the ferocious haj mota.</baseDescription>
+		<baseDesc>As a beastmaster, [PAWN_nameDef] was one of the most important members of the Wake Walkers, excluding the captain of course. [PAWN_pronoun] had assembled a small menagerie for use in combat, from giant snakes, to the ferocious haj mota.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Animals</defName>
-				<amount>6</amount>
+				<key>Animals</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>3</amount>
+				<key>Melee</key>
+				<value>3</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<maleCommonality>30</maleCommonality>
 		<femaleCommonality>30</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerWakeWalkersAdultBackstory_base">
 		<defName>ESCP_Maormer_WakeWalkerCaptainBackstory</defName>
 		<title>Wake Walkers captain</title>
 		<titleShort>captain</titleShort>
-		<baseDescription>There were many ways pirate captains could display their power, and [PAWN_nameDef] decided [PAWN_pronoun] wanted the largest beast [PAWN_pronoun] could find. So that's how [PAWN_nameDef] wound up with a pet haj mota.</baseDescription>
+		<baseDesc>There were many ways pirate captains could display their power, and [PAWN_nameDef] decided [PAWN_pronoun] wanted the largest beast [PAWN_pronoun] could find. So that's how [PAWN_nameDef] wound up with a pet haj mota.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>5</amount>
+				<key>Social</key>
+				<value>5</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>5</amount>
+				<key>Animals</key>
+				<value>5</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 </Defs>

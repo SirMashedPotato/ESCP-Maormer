@@ -1,388 +1,365 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<AlienRace.BackstoryDef Abstract="True" Name="ESCP_MaormerStormSharksAdultBackstory_base" ParentName="ESCP_Maormer_AdultBackstory_base">
+	<!-- ==========[ESCP_Maormer_StormSharksAdulthoodBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase" Name="ESCP_Maormer_StormSharksAdulthoodBase" Abstract="True">
 		<spawnCategories>
-          <li>ESCP_MaormerPirate_StormSharks_Backstory</li>
-        </spawnCategories>
-		<forcedTraits>
-		</forcedTraits>
-		<workDisables>
-		</workDisables>
-		<disallowedTraits>
-        </disallowedTraits>
-		<forcedHediffs>
-		</forcedHediffs>
+			<li>ESCP_MaormerPirate_StormSharks_Backstory</li>
+		</spawnCategories>
 		<maleCommonality>40</maleCommonality>
 		<femaleCommonality>40</femaleCommonality>
-	</AlienRace.BackstoryDef>
-	
-	<AlienRace.BackstoryDef Abstract="True" Name="ESCP_MaormerStormSharksMageAdultBackstory_base" ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
-		<forcedTraits>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>3</degree>
-				<chance>25</chance>
-			</li>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>2</degree>
-				<chance>25</chance>
-			</li>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>1</degree>
-				<chance>100</chance>
-			</li>
-		</forcedTraits>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_Maormer_StormSharksMageAdulthoodBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBackstory_MageBase" Name="ESCP_Maormer_StormSharksMageAdulthoodBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_MaormerPirate_StormSharks_Backstory</li>
+		</spawnCategories>
 		<maleCommonality>20</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
-	</AlienRace.BackstoryDef>
-	
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [Melee] ==================== -->
 
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
-		<defName>ESCP_Maormer_StormSharksDeckhandBackstory</defName>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksAdulthoodBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_StormSharksDeckhand</defName>
 		<title>Storm Sharks deckhand</title>
 		<titleShort>deckhand</titleShort>
-		<baseDescription>[PAWN_nameDef] had always wanted to join the Storm Sharks, in hopes that [PAWN_pronoun] would get the opportunity to travel to exotic locations, and to meet interesting people. Most days were simply spent docked at one of the many harbours in Pyandonea, the rest were filled with unfathomable bloodshed.</baseDescription>
+		<baseDesc>[PAWN_nameDef] had always wanted to join the Storm Sharks, in hopes that [PAWN_pronoun] would get the opportunity to travel to exotic locations, and to meet interesting people. Most days were simply spent docked at one of the many harbours in Pyandonea, the rest were filled with unfathomable bloodshed.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>2</amount>
+				<key>Crafting</key>
+				<value>2</value>
 			</li>
 		</skillGains>
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<forcedHediffs>
 		</forcedHediffs>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksLightningFangBackstory</defName>
 		<title>Storm Sharks lightningfang</title>
 		<titleShort>lightningfang</titleShort>
-		<baseDescription>With a preference for dual-wielding shortblades, [PAWN_nameDef] was quite the formidable foe during raids. [PAWN_pronoun] went through the same ritual before each battle, which involved covering [PAWN_possessive] blades in void salts. [PAWN_nameDef] believed this granted [PAWN_objective] luck, in reality it just gave everyone he sliced open electric shocks.</baseDescription>
+		<baseDesc>With a preference for dual-wielding shortblades, [PAWN_nameDef] was quite the formidable foe during raids. [PAWN_pronoun] went through the same ritual before each battle, which involved covering [PAWN_possessive] blades in void salts. [PAWN_nameDef] believed this granted [PAWN_objective] luck, in reality it just gave everyone he sliced open electric shocks.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>5</amount>
+				<key>Melee</key>
+				<value>5</value>
 			</li>
 		</skillGains>
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<forcedHediffs>
 		</forcedHediffs>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Nimble</defName>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksStrikerBackstory</defName>
 		<title>Storm Sharks striker</title>
 		<titleShort>striker</titleShort>
-		<baseDescription>While [PAWN_nameDef] did serve as heavy infantry in the Storm Sharks, [PAWN_possessive] main purpose was to keep the leviathans in check, as they had a tendency of getting slightly carried away..</baseDescription>
+		<baseDesc>While [PAWN_nameDef] did serve as heavy infantry in the Storm Sharks, [PAWN_possessive] main purpose was to keep the leviathans in check, as they had a tendency of getting slightly carried away..</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>5</amount>
+				<key>Melee</key>
+				<value>5</value>
 			</li>
 		</skillGains>
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
 		<forcedHediffs>
 		</forcedHediffs>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Tough</defName>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-	</AlienRace.BackstoryDef>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- ==================== [Shooting] ==================== -->
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksArcherBackstory</defName>
 		<title>Storm Sharks archer</title>
 		<titleShort>archer</titleShort>
-		<baseDescription>[PAWN_nameDef] was one of the many archers found in the Storm Sharks. [PAWN_possessive] sole purpose was to provide support for [PAWN_possessive] fellow soldiers.</baseDescription>
+		<baseDesc>[PAWN_nameDef] was one of the many archers found in the Storm Sharks. [PAWN_possessive] sole purpose was to provide support for [PAWN_possessive] fellow soldiers.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>5</amount>
+				<key>Shooting</key>
+				<value>5</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- ==================== [Medicine] ==================== -->
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksMageAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksMageAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksChanterBackstory</defName>
 		<title>Storm Sharks chanter</title>
 		<titleShort>chanter</titleShort>
-		<baseDescription>Most restoration mages took upon themseves an oath to help anyone in need of it. As Maormer, [PAWN_nameDef] made no such oath, and simply provided healing to [PAWN_possessive] fellow soldiers.</baseDescription>
+		<baseDesc>Most restoration mages took upon themseves an oath to help anyone in need of it. As Maormer, [PAWN_nameDef] made no such oath, and simply provided healing to [PAWN_possessive] fellow soldiers.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Medicine</defName>
-				<amount>4</amount>
+				<key>Medicine</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- ==================== [Animals] ==================== -->
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksMageAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksMageAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksBeastMasterBackstory</defName>
 		<title>Storm Sharks beast master</title>
 		<titleShort>beast master</titleShort>
-		<baseDescription>[PAWN_nameDef] was rather skilled at controlling beasts, a skill that was simply invaluable to the Storm Sharks. What [PAWN_pronoun] wasn't entirely used to however, was controlling Maormer leviathans, which proved substantially more difficult for [PAWN_objective].</baseDescription>
+		<baseDesc>[PAWN_nameDef] was rather skilled at controlling beasts, a skill that was simply invaluable to the Storm Sharks. What [PAWN_pronoun] wasn't entirely used to however, was controlling Maormer leviathans, which proved substantially more difficult for [PAWN_objective].</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Animals</defName>
-				<amount>6</amount>
+				<key>Animals</key>
+				<value>6</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>PlantWork</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
 	<!-- ==================== [Intellectual] ==================== -->
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksMageAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksMageAdulthoodBase">
 		<defName>ESCP_Maormer_SeaViperWavepriestBackstory</defName>
 		<title>Storm Sharks wavepriest</title>
 		<titleShort>wavepriest</titleShort>
-		<baseDescription>As a somewhat skilled snake mage, [PAWN_nameDef] controlled quite a few reef vipers during [PAWN_possessive] time in the Storm Sharks. These beasts proved to be dealy weapons, far deadlier than most of the recruits.</baseDescription>
+		<baseDesc>As a somewhat skilled snake mage, [PAWN_nameDef] controlled quite a few reef vipers during [PAWN_possessive] time in the Storm Sharks. These beasts proved to be dealy weapons, far deadlier than most of the recruits.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>4</amount>
+				<key>Animals</key>
+				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		<forcedTraitsChance>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>ManualDumb</li>
 			<li>PlantWork</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksMageAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksMageAdulthoodBase">
 		<defName>ESCP_Maormer_SeaViperWindcallerBackstory</defName>
 		<title>Storm Sharks windcaller</title>
 		<titleShort>windcaller</titleShort>
-		<baseDescription>[PAWN_nameDef] would use [PAWN_possessive] knowledge of air magic to herd unbound storm atronachs towards [PAWN_possessive] foes. This required the utmost concentration, as one mistake could force the atronach towards [PAWN_possessive] fellow Storm Sharks instead.</baseDescription>
+		<baseDesc>[PAWN_nameDef] would use [PAWN_possessive] knowledge of air magic to herd unbound storm atronachs towards [PAWN_possessive] foes. This required the utmost concentration, as one mistake could force the atronach towards [PAWN_possessive] fellow Storm Sharks instead.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>8</amount>
+				<key>Intellectual</key>
+				<value>8</value>
 			</li>
 		</skillGains>
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>ManualDumb</li>
 			<li>PlantWork</li>
 		</workDisables>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- ==================== [Social] ==================== -->
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksCommanderBackstory</defName>
 		<title>Storm Sharks commander</title>
 		<titleShort>commander</titleShort>
-		<baseDescription>[PAWN_nameDef] commanded a small band of soldiers, whose sole task was to undertake ground assaults, while the Armada kept the main enemy forces distracted. [PAWN_nameDef] took great pride in [PAWN_possessive] soldiers work, and always treated them to a nice meal afterwards, no matter the outcome.</baseDescription>
+		<baseDesc>[PAWN_nameDef] commanded a small band of soldiers, whose sole task was to undertake ground assaults, while the Armada kept the main enemy forces distracted. [PAWN_nameDef] took great pride in [PAWN_possessive] soldiers work, and always treated them to a nice meal afterwards, no matter the outcome.</baseDesc>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>4</amount>
+				<key>Social</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>4</amount>
+				<key>Intellectual</key>
+				<value>4</value>
 			</li>
 		</skillGains>
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>PlantWork</li>
 		</workDisables>
 		<maleCommonality>20</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksCaptainBackstory</defName>
 		<title>Storm Sharks captain</title>
 		<titleShort>captain</titleShort>
-		<baseDescription>[PAWN_nameDef] spent countless moons training at the academy, and countless more serving as a low ranking crewmember. Eventually, [PAWN_nameDef] got the promotion [PAWN_pronoun] had worked so hard for, [PAWN_nameDef] had finally become one of the captains of the Storm Sharks.</baseDescription>
+		<baseDesc>[PAWN_nameDef] spent countless moons training at the academy, and countless more serving as a low ranking crewmember. Eventually, [PAWN_nameDef] got the promotion [PAWN_pronoun] had worked so hard for, [PAWN_nameDef] had finally become one of the captains of the Storm Sharks.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>6</amount>
+				<key>Social</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>6</amount>
+				<key>Melee</key>
+				<value>6</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>6</amount>
+				<key>Intellectual</key>
+				<value>6</value>
 			</li>
 		</skillGains>
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>PlantWork</li>
 		</workDisables>
 		<maleCommonality>10</maleCommonality>
 		<femaleCommonality>10</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksAdmiralBackstory</defName>
 		<title>Storm Sharks admiral</title>
 		<titleShort>admiral</titleShort>
-		<baseDescription>Once the admiral of the Storm Sharks, [PAWN_nameDef] was well respected by [PAWN_possessive] peers. Even if the raids on Summerset never turned out how [PAWN_pronoun] wanted, [PAWN_nameDef] never gave up. Eventually though, all the successive failures were simply to much for [PAWN_possessive] peers to ignore, and [PAWN_nameDef] resigned from [PAWN_possessive] position.</baseDescription>
+		<baseDesc>Once the admiral of the Storm Sharks, [PAWN_nameDef] was well respected by [PAWN_possessive] peers. Even if the raids on Summerset never turned out how [PAWN_pronoun] wanted, [PAWN_nameDef] never gave up. Eventually though, all the successive failures were simply to much for [PAWN_possessive] peers to ignore, and [PAWN_nameDef] resigned from [PAWN_possessive] position.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
-				<amount>10</amount>
+				<key>Social</key>
+				<value>10</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Intellectual</defName>
-				<amount>8</amount>
+				<key>Intellectual</key>
+				<value>8</value>
 			</li>
 		</skillGains>
 		
-		<disallowedTraits>
-		</disallowedTraits>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables Inherit="False">
 			<li>ManualDumb</li>
 			<li>ManualSkilled</li>
 		</workDisables>
 		<maleCommonality>1</maleCommonality>
 		<femaleCommonality>1</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 	<!-- ==================== [Leviathan] ==================== -->
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksSnakeskinBruteBackstory</defName>
 		<title>snakeskin brute</title>
 		<titleShort>snakeskin</titleShort>
-		<baseDescription>Born a leviathan, [PAWN_nameDef] was always one to lash out at anyone nearby, which the Storm Sharks put to great use. They trained [PAWN_nameDef] with a sword, and let [PAWN_objective] loose on the Altmer.</baseDescription>
+		<baseDesc>Born a leviathan, [PAWN_nameDef] was always one to lash out at anyone nearby, which the Storm Sharks put to great use. They trained [PAWN_nameDef] with a sword, and let [PAWN_objective] loose on the Altmer.</baseDesc>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>3</amount>
+				<key>Animals</key>
+				<value>3</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Tough</defName>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Shooting</li>
 			<li>Social</li>
@@ -395,34 +372,34 @@
 		</forcedHediffs>
 		<maleCommonality>20</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 	
-	<AlienRace.BackstoryDef ParentName="ESCP_MaormerStormSharksAdultBackstory_base">
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_StormSharksAdulthoodBase">
 		<defName>ESCP_Maormer_StormSharksSnakeskinBeserkerBackstory</defName>
 		<title>snakeskin beserker</title>
 		<titleShort>snakeskin</titleShort>
-		<baseDescription>The Storm Sharks put [PAWN_nameDef]'s animalistic nature to great use, they would just need to provoke [PAWN_objective] a little, and off [PAWN_pronoun] would go. Of course there was always a chance this would backfire, which is why [PAWN_nameDef] had several handlers to follow [PAWN_objective] around.</baseDescription>
+		<baseDesc>The Storm Sharks put [PAWN_nameDef]'s animalistic nature to great use, they would just need to provoke [PAWN_objective] a little, and off [PAWN_pronoun] would go. Of course there was always a chance this would backfire, which is why [PAWN_nameDef] had several handlers to follow [PAWN_objective] around.</baseDesc>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
 		</spawnCategories>
 		<skillGains>
 			<li>
-				<defName>Melee</defName>
-				<amount>8</amount>
+				<key>Melee</key>
+				<value>8</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>3</amount>
+				<key>Animals</key>
+				<value>3</value>
 			</li>
 		</skillGains>
-		<forcedTraits>
+		<forcedTraitsChance>
 			<li>
 				<defName>Brawler</defName>
 				<chance>100</chance>
 			</li>
-		</forcedTraits>
-		<disallowedTraits>
-		</disallowedTraits>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
 		<workDisables>
 			<li>Shooting</li>
 			<li>Social</li>
@@ -435,6 +412,6 @@
 		</forcedHediffs>
 		<maleCommonality>20</maleCommonality>
 		<femaleCommonality>20</femaleCommonality>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
 </Defs>

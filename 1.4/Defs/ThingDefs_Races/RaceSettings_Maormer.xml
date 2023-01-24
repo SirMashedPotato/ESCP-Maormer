@@ -30,7 +30,7 @@
 				<li>
 					<kindDefs>
 						<li>ESCP_MaormerLeviathanPlayerPawnKind_Outlander</li>
-						<li>ESCP_MaormerleviathanPlayerPawnKind_Tribal</li>
+						<li>ESCP_MaormerLeviathanPlayerPawnKind_Tribal</li>
 					</kindDefs>
 					<chance>2.0</chance>
 				</li>
