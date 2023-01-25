@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <MeditationFocusDef>
-    <defName>ESCP_MaormerSerpent</defName>
-    <label>serpentine</label>
-    <requiredBackstoriesAny>
-      <li>
-        <categoryName>ESCP_MaormerBackstory</categoryName>
-        <slot>Childhood</slot>
-      </li>
-    </requiredBackstoriesAny>
-  </MeditationFocusDef>
-
+	<MeditationFocusDef>
+		<defName>ESCP_MaormerSerpentMeditation</defName>
+		<label>serpentine</label>
+		<requiredBackstoriesAny>
+			<li>
+				<categoryName>ESCP_MaormerBackstory_Childhood</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerLeviathanBackstory_Childhood</categoryName>
+				<slot>Childhood</slot>
+			</li>
+		</requiredBackstoriesAny>
+	</MeditationFocusDef>
 </Defs>

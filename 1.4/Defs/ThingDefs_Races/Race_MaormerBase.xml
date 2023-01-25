@@ -3,8 +3,8 @@
 	<AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_MerColouredEyes" Name="ESCP_BaseRace_Maormer" Abstract="True">
 		<race>
 			<leatherDef>ESCP_LeatherMaormer</leatherDef>
-			<nameGenerator>ESCP_NamerPersonMaormerMale</nameGenerator>
-			<nameGeneratorFemale>ESCP_NamerPersonMaormerFemale</nameGeneratorFemale>
+			<nameGenerator>ESCP_Maormer_NamerMale</nameGenerator>
+			<nameGeneratorFemale>ESCP_Maormer_NamerFemale</nameGeneratorFemale>
 		</race>
 		<alienRace>
 			<generalSettings>
