@@ -66,6 +66,12 @@
 		<spawnCategories>
 			<li>ESCP_MaormerLeviathanBackstory_Childhood</li>
 		</spawnCategories>
+		<forcedTraitsChance>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
 		<workDisables>
 			<li>Caring</li>
 		</workDisables>

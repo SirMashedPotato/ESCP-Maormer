@@ -5,7 +5,7 @@
 		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodA</defName>
 		<title>leviathan</title>
 		<titleShort>leviathan</titleShort>
-		<baseDesc>[PAWN_nameDef] was born slightly different to most, even by child standards [PAWN_pronoun] struggled to walk, and was far more at home in the water. Turns out [PAWN_nameDef] was born a leviathan, which became incredibly obvious as [PAWN_pronoun] grew larger, far larger than any child should be. Also [PAWN_possessive] jaw distending when eating may have helped [PAWN_possessive] parents come to that conclusion.</baseDesc>
+		<baseDesc>[PAWN_nameDef] was born slightly different to most, even by child standards [PAWN_pronoun] struggled to walk, and was far more at home in the water. Turns out [PAWN_nameDef] was born a Leviathan, which became incredibly obvious as [PAWN_pronoun] grew larger, far larger than any child should be. Also [PAWN_possessive] jaw distending when eating may have helped [PAWN_possessive] parents come to that conclusion.</baseDesc>
 		<skillGains>
 			<li>
 				<key>Melee</key>
@@ -62,93 +62,58 @@
 	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodD]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
 		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodD</defName>
-		<title>TODO</title>
-		<titleShort>TODO</titleShort>
-		<baseDesc>TODO</baseDesc>
+		<title>snakeskin child</title>
+		<titleShort>snakeskin</titleShort>
+		<baseDesc>Thanks to being born as a Leviathan, the Storm Sharks took great interest in [PAWN_nameDef]. They began 'training' [PAWN_objective] as soon as [PAWN_pronoun] was able to walk. This took a great toll on [PAWN_nameDef], causing [PAWN_objective] to regress into an animalistic beast.</baseDesc>
 		<skillGains>
-			
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
 		</skillGains>
 		<workDisables>
-	
+			<li>Social</li>
+			<li>ManualSkilled</li>
+			<li>Intellectual</li>
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodE]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
 		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodE</defName>
-		<title>TODO</title>
-		<titleShort>TODO</titleShort>
-		<baseDesc>TODO</baseDesc>
+		<title>abandoned child</title>
+		<titleShort>abandoned</titleShort>
+		<baseDesc>Born during an unfortunate time, [PAWN_nameDef] was quickly left to fend for [PAWN_objective]self. Luckily for [PAWN_nameDef], [PAWN_pronoun] was born as a Leviathan, and as such was fully capable of surviving the wilds.</baseDesc>
 		<skillGains>
-			
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
 		</skillGains>
 		<workDisables>
-	
+			<li>Social</li>
+			<li>Intellectual</li>
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodF]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
 		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodF</defName>
-		<title>TODO</title>
-		<titleShort>TODO</titleShort>
-		<baseDesc>TODO</baseDesc>
+		<title>serpent child</title>
+		<titleShort>serpent</titleShort>
+		<baseDesc>[PAWN_nameDef] heard a calling from the wilds one day, and decided to wander off in search of it. Completely lost, [PAWN_pronoun] eventually came across an ancient sea serpent, who took [PAWN_objective] in as if [PAWN_pronoun] were its own child. If [PAWN_nameDef] wasn't a Leviathan, [PAWN_pronoun] may not have been so lucky.</baseDesc>
 		<skillGains>
-			
+			<li>
+				<key>Animals</key>
+				<value>8</value>
+			</li>
 		</skillGains>
 		<workDisables>
-	
+			<li>Social</li>
+			<li>ManualSkilled</li>
+			<li>Intellectual</li>
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodG]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
-		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodG</defName>
-		<title>TODO</title>
-		<titleShort>TODO</titleShort>
-		<baseDesc>TODO</baseDesc>
-		<skillGains>
-			
-		</skillGains>
-		<workDisables>
-	
-		</workDisables>
-	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodH]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
-		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodH</defName>
-		<title>TODO</title>
-		<titleShort>TODO</titleShort>
-		<baseDesc>TODO</baseDesc>
-		<skillGains>
-			
-		</skillGains>
-		<workDisables>
-	
-		</workDisables>
-	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodI]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
-		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodI</defName>
-		<title>TODO</title>
-		<titleShort>TODO</titleShort>
-		<baseDesc>TODO</baseDesc>
-		<skillGains>
-			
-		</skillGains>
-		<workDisables>
-	
-		</workDisables>
-	</AlienRace.AlienBackstoryDef>
-	<!-- ==========[ESCP_MaormerLeviathanBackstory_ChildhoodJ]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathan_ChildhoodBase">
-		<defName>ESCP_MaormerLeviathanBackstory_ChildhoodJ</defName>
-		<title>TODO</title>
-		<titleShort>TODO</titleShort>
-		<baseDesc>TODO</baseDesc>
-		<skillGains>
-			
-		</skillGains>
-		<workDisables>
-	
-		</workDisables>
-	</AlienRace.AlienBackstoryDef>
-	
 </Defs>
