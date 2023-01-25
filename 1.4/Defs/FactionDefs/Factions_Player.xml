@@ -3,6 +3,7 @@
 	<!-- ========== [ESCP_PlayerFactionBase_Industrial] ========== -->
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Industrial">
 		<defName>ESCP_MaormerPlayerFaction_Industrial</defName>
+		<label>New Maormer Arrivals</label>
 		<basicMemberKind>ESCP_MaormerPlayerPawnKind_Outlander</basicMemberKind>
 		<factionIconPath>World/WorldObjects/Expanding/ESCP_MaormerSettlement</factionIconPath>
 		<allowedCultures>
@@ -23,6 +24,7 @@
 	<!-- ========== [ESCP_MaormerPlayerFaction_Medieval] ========== -->
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
 		<defName>ESCP_MaormerPlayerFaction_Medieval</defName>
+		<label>New Maormer Kingdom</label>
 		<basicMemberKind>ESCP_MaormerPlayerPawnKind_Medieval</basicMemberKind>
 		<factionIconPath>World/WorldObjects/Expanding/ESCP_MaormerSettlement</factionIconPath>
 		<allowedCultures>
@@ -43,6 +45,7 @@
 	<!-- ========== [ESCP_MaormerPlayerFactionBase_Tribal] ========== -->
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Tribal">
 		<defName>ESCP_MaormerPlayerFaction_Tribal</defName>
+		<label>New Maormer Tribe</label>
 		<basicMemberKind>ESCP_MaormerPlayerPawnKind_Tribal</basicMemberKind>
 		<factionIconPath>World/WorldObjects/Expanding/ESCP_MaormerSettlement</factionIconPath>
 		<allowedCultures>

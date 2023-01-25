@@ -1,62 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MeleeA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_Maormer_RecruitMeleeBackstory</defName>
-		<title>recruit</title>
-		<titleShort>recruit</titleShort>
-		<baseDesc>As just a lowly recruit, [PAWN_nameDef] was given many tasks, such as cleaning rust off of equipment, and patching up holes in leather armour. Of course this was all in between endless training exercises. [PAWN_nameDef] just wanted to ride a sea serpent.</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>1</value>
-			</li>
-		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-			<li>Intellectual</li>
-		</workDisables>
-	</AlienRace.AlienBackstoryDef>
-
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_Maormer_SoldierMeleeBackstory</defName>
-		<title>soldier</title>
-		<titleShort>soldier</titleShort>
-		<baseDesc>[PAWN_nameDef] was a regular soldier in the Maormeri army, seemingly endlessly stationed at one of the barracks on Pyandonea, eagerly awaiting for the next attempt at invading Summerset.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Melee</key>
-				<value>5</value>
-			</li>
-		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
-		<maleCommonality>90</maleCommonality>
-		<femaleCommonality>90</femaleCommonality>
-	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_Maormer_AssassinBackstory</defName>
+		<defName>ESCP_MaormerBackstory_Adulthood_MeleeA</defName>
 		<title>assassin</title>
 		<titleShort>assassin</titleShort>
 		<baseDesc>Sometimes all that was needed was a silent blade, that was when someone like [PAWN_nameDef] was called into action. [PAWN_nameDef] would silently climb the side of a ship, sneak into the targets quarters, and then vanish, back into the depths. No one on board any the wiser that that a crew member was no longer with them.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Melee</key>
@@ -69,23 +19,17 @@
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 		<maleCommonality>70</maleCommonality>
 		<femaleCommonality>70</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MeleeB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_Maormer_CommanderBackstory</defName>
+		<defName>ESCP_MaormerBackstory_Adulthood_MeleeB</defName>
 		<title>commander</title>
 		<titleShort>commander</titleShort>
-		<baseDesc>As somewhat of a veteran, [PAWN_nameDef] had the privelage of commanding new recruits, ensuring they survive their first attempted invasion of Summerset, or at least returned in one piece.</baseDesc>
+		<baseDesc>As somewhat of a veteran, [PAWN_nameDef] had the privilege of commanding new recruits, ensuring they survive their first attempted invasion of Summerset, or at least returned in one piece.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Melee</key>
@@ -96,8 +40,6 @@
 				<value>3</value>
 			</li>
 		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
 		<workDisables>
 			<li>Caring</li>
 			<li>ManualDumb</li>
@@ -105,15 +47,13 @@
 		<maleCommonality>70</maleCommonality>
 		<femaleCommonality>70</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MeleeC]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_Maormer_SerpentKnightBackstory</defName>
+		<defName>ESCP_MaormerBackstory_Adulthood_MeleeC</defName>
 		<title>serpent knight</title>
 		<titleShort>knight</titleShort>
 		<baseDesc>[PAWN_nameDef] was one of the famed serpent knights, highly skilled warriors that rode sea serpents into battle, with a little help from a nearby snake mage of course. Alas [PAWN_possessive] fighting days have been over for a while, as [PAWN_possessive] beloved serpent steed is sadly no more.</baseDesc>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Melee</key>
@@ -124,10 +64,6 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-		<forcedTraitsChance>
-		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
 		<workDisables>
 			<li>ManualDumb</li>
 			<li>PlantWork</li>
@@ -135,5 +71,4 @@
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	
 </Defs>

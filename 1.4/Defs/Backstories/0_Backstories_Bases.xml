@@ -14,8 +14,10 @@
 			ESCP_MaormerArmada_StormSharks_Backstory
 			ESCP_MaormerArmada_SeaVipers_Backstory
 			
-			[Specific pawnKinds/race]
+			[Leviathan specific]
 			ESCP_MaormerLeviathanBackstory_Childhood
+			ESCP_MaormerLeviathanBackstory_Adulthood
+			ESCP_MaormerLeviathanBackstory_StormShark
 			
 			[Generic pawnKinds]
 			ESCP_MaormerMageBackstory	
@@ -23,6 +25,7 @@
 	<!-- ==========[ESCP_Maormer_ChildhoodBase]========== -->
 	<AlienRace.AlienBackstoryDef Name="ESCP_Maormer_ChildhoodBase" Abstract="True" >
 		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 			<li>ESCP_MaormerBackstory_Childhood</li>
 		</spawnCategories>
@@ -54,5 +57,30 @@
 		</forcedTraitsChance>
 		<maleCommonality>15</maleCommonality>
 		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- ==========[ESCP_MaormerLeviathan_ChildhoodBase]========== -->
+	<AlienRace.AlienBackstoryDef Name="ESCP_MaormerLeviathan_ChildhoodBase" Abstract="True" >
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+			<li>ESCP_MaormerLeviathanBackstory_Childhood</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
+	<!-- ==========[ESCP_MaormerLeviathan_AdulthoodBase]========== -->
+	<AlienRace.AlienBackstoryDef Name="ESCP_MaormerLeviathan_AdulthoodBase" Abstract="True" >
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+			<li>ESCP_MaormerLeviathanBackstory_Adulthood</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
 	</AlienRace.AlienBackstoryDef>
 </Defs>

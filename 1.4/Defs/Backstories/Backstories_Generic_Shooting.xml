@@ -1,63 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_ShootingA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_Maormer_RecruitShootingBackstory</defName>
-		<title>recruit</title>
-		<titleShort>recruit</titleShort>
-		<baseDesc>As just a lowly recruit, [PAWN_nameDef] was given many tasks, such as fletching arrows, and patching up holes in leather armour. Of course this was all in between endless training exercises. [PAWN_nameDef] just wanted to shoot an Altmer.</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>3</value>
-			</li>
-			<li>
-				<key>Crafting</key>
-				<value>1</value>
-			</li>
-		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-			<li>Intellectual</li>
-		</workDisables>
-	</AlienRace.AlienBackstoryDef>
-
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_Maormer_SoldierShootingBackstory</defName>
-		<title>soldier</title>
-		<titleShort>soldier</titleShort>
-		<baseDesc>[PAWN_nameDef] was a regular soldier in the Maormeri army, seemingly endlessly stationed at one of the barracks on Pyandonea, eagerly awaiting for the next attempt at invading Summerset.</baseDesc>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
-		<skillGains>
-			<li>
-				<key>Shooting</key>
-				<value>5</value>
-			</li>
-		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
-		<maleCommonality>90</maleCommonality>
-		<femaleCommonality>90</femaleCommonality>
-	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
-		<defName>ESCP_Maormer_HunterBackstory</defName>
+		<defName>ESCP_MaormerBackstory_Adulthood_ShootingA</defName>
 		<title>hunter</title>
 		<titleShort>hunter</titleShort>
 		<baseDesc>[PAWN_nameDef] always enjoyed the calm of going out into the wilderness, and tracking one of the beasts found there. Pyandonea was home to some strange creatures, and while [PAWN_nameDef] was never scared, the thought of encountering a lizard bull did make [PAWN_objective] nervous.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Shooting</key>
@@ -68,12 +18,7 @@
 				<value>2</value>
 			</li>
 		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	
 </Defs>

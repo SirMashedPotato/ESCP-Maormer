@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<!-- 
-		
-		Lower caste aint exactly doing too hot mentally.
-		
-	-->
-
-	<AlienRace.AlienBackstoryDef Abstract="True" Name="ESCP_MaormerDreadsailsAdultBackstory_base" ParentName="ESCP_Maormer_AdulthoodBase">
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_DreadSailBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase" Name="ESCP_MaormerBackstory_Adulthood_DreadSailBase" Abstract="True">
 		<spawnCategories>
-          <li>ESCP_MaormerPirate_Dreadsails_Backstory</li>
-        </spawnCategories>
-		<forcedTraitsChance>
-		</forcedTraitsChance>
+			<li>ESCP_MaormerPirate_DreadSails_Backstory</li>
+		</spawnCategories>
 		<workDisables>
 			<li>Artistic</li>
 			<li>PlantWork</li>
 			<li>Animals</li>
 		</workDisables>
-		<disallowedTraitsChance>
-        </disallowedTraitsChance>
 		<maleCommonality>40</maleCommonality>
 		<femaleCommonality>40</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_DreadSailMageBase]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBackstory_MageBase" Name="ESCP_MaormerBackstory_Adulthood_DreadSailMageBase" Abstract="True">
+		<spawnCategories>
+			<li>ESCP_MaormerPirate_DreadSails_Backstory</li>
+		</spawnCategories>
+		<workDisables>
+			<li>Artistic</li>
+			<li>PlantWork</li>
+			<li>Animals</li>
+		</workDisables>
+		<maleCommonality>20</maleCommonality>
+		<femaleCommonality>20</femaleCommonality>
+	</AlienRace.AlienBackstoryDef>
 	<!-- ==================== [Melee] ==================== -->
-	
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerDreadsailsAdultBackstory_base">
-		<defName>ESCP_Maormer_DreadsailsWarriorBackstory</defName>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_DreadSailA]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_DreadSailBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailA</defName>
 		<title>Dreadsails warrior</title>
 		<titleShort>warrior</titleShort>
 		<baseDesc>[PAWN_nameDef] was a member of the Dreadsails, admittedly not entirely by choice, at least not anymore. What once seemed like a good idea, a pathway to fame, fortune and glory, [PAWN_nameDef] realised would simply lead to an early grave. Not that [PAWN_nameDef] would even be allowed to rest in death.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Melee</key>
@@ -47,23 +47,17 @@
 				<chance>50</chance>
 			</li>
 		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerDreadsailsAdultBackstory_base">
-		<defName>ESCP_Maormer_DreadsailsRaiderBackstory</defName>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_DreadSailB]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_DreadSailBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailB</defName>
 		<title>Dreadsails raider</title>
 		<titleShort>raider</titleShort>
 		<baseDesc>[PAWN_nameDef] lived for the battle, for the bloodshed, for the cries of pain. Or at least [PAWN_nameDef] thought [PAWN_pronoun] did. The longer [PAWN_pronoun] served on the Dreadsail, the more obvious it became that death was [PAWN_possessive] life now, and for eternity after.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Melee</key>
@@ -81,21 +75,15 @@
 				<chance>50</chance>
 			</li>
 		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerDreadsailsAdultBackstory_base">
-		<defName>ESCP_Maormer_DreadsailsRavagerBackstory</defName>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_DreadSailC]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_DreadSailBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailC</defName>
 		<title>Dreadsails sentinel</title>
 		<titleShort>sentinel</titleShort>
 		<baseDesc>Once a guard at one of the many Maormeri embassies, [PAWN_nameDef] decided to turn to a life of piracy, as working conditions constantly grew worse. [PAWN_pronoun] joined the Dreadsails, which in hindsight was a terrible choice. Unbeknown to [PAWN_nameDef], [PAWN_pronoun] had entered a pact of lifelong servitude.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Melee</key>
@@ -109,20 +97,14 @@
 				<chance>50</chance>
 			</li>
 		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerDreadsailsAdultBackstory_base">
-		<defName>ESCP_Maormer_DreadsailsTempestBackstory</defName>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_DreadSailD]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_DreadSailMageBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailD</defName>
 		<title>Dreadsails tempest</title>
 		<titleShort>tempest</titleShort>
 		<baseDesc>[PAWN_nameDef] was a literal whirlwind on the battlefield, striking with both blades and magic, none could escape [PAWN_pronoun]. Which made [PAWN_nameDef] the perfect warrior for the Dreadsails.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Melee</key>
@@ -138,34 +120,21 @@
 				<defName>Nimble</defName>
 				<chance>100</chance>
 			</li>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>2</degree>
-				<chance>50</chance>
-			</li>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>1</degree>
-				<chance>100</chance>
-			</li>
 		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>30</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-
 	<!-- ==================== [Intellectual] ==================== -->
-
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerDreadsailsAdultBackstory_base">
-		<defName>ESCP_Maormer_DreadsailsCaptainBackstory</defName>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_DreadSailE]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_DreadSailMageBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailE</defName>
 		<title>Dreadsails captain</title>
 		<titleShort>captain</titleShort>
 		<baseDesc>As both a highly skilled water mage, and a leviathan, [PAWN_nameDef] was the obvious pick for the captain of the Dreadsails, not that the crew really had a say. Many of the crew found it strange that a leviathan would have such an affinity water magic. However none dared bring this up when [PAWN_nameDef] was around.</baseDesc>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
-		<spawnCategories>
+		<spawnCategories Inherit="False">
+			<li>ESCP_MaormerLeviathanBackstory_Adulthood</li>
+			<li>ESCP_MaormerLeviathanBackstory_DreadSail</li>
 		</spawnCategories>
 		<skillGains>
 			<li>
@@ -177,39 +146,20 @@
 				<value>5</value>
 			</li>
 		</skillGains>
-		<forcedTraitsChance>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>3</degree>
-				<chance>50</chance>
-			</li>
-			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>2</degree>
-				<chance>100</chance>
-			</li>
-		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
 		<workDisables>
 			<li>Caring</li>
 		</workDisables>
-		<forcedHediffs>
-			<li>ESCP_MaormerLeviathanHediff_New</li>
-		</forcedHediffs>
 		<maleCommonality>5</maleCommonality>
 		<femaleCommonality>0</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-	
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerDreadsailsAdultBackstory_base">
-		<defName>ESCP_Maormer_DreadsailsQueenBackstory</defName>
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_DreadSailF]========== -->
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_DreadSailMageBase">
+		<defName>ESCP_MaormerBackstory_Adulthood_DreadSailF</defName>
 		<title>Dreadsails queen</title>
 		<titleShort>queen</titleShort>
 		<baseDesc>While the crew of the Dreadsails reported to their captain, there was in fact someone even higher up the food chain, [PAWN_nameDef]. Most of the crew didn't even dare whisper [PAWN_possessive] name, for the crew of the Dreadsails could be split into two main groups. Those that served willingly, and those that served for eternity.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Intellectual</key>
@@ -218,17 +168,10 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>ESCP_Mage</defName>
-				<degree>3</degree>
-				<chance>100</chance>
-			</li>
-			<li>
 				<defName>Psychopath</defName>
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
 		<workDisables Inherit="False">
 			<li>ManualDumb</li>
 			<li>ManualSkilled</li>
@@ -236,5 +179,4 @@
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>1</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
-
 </Defs>

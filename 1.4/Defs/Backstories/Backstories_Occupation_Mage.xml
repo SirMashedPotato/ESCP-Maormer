@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MageA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBackstory_MageBase">
-		<defName>ESCP_Maormer_MageAirBackstory</defName>
+		<defName>ESCP_MaormerBackstory_Adulthood_MageA</defName>
 		<title>air mage</title>
 		<titleShort>mage</titleShort>
 		<baseDesc>Born with an affinity towards the storm, [PAWN_nameDef] quickly mastered control over air, and eventually became a highly skilled air mage. [PAWN_nameDef] created impenetrable vortexes of wind, sending anyone caught within flying into the sea.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Intellectual</key>
@@ -20,12 +18,8 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MageB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBackstory_MageBase">
 		<defName>ESCP_Maormer_MageLightningBackstory</defName>
 		<title>lightning mage</title>
@@ -33,8 +27,6 @@
 		<baseDesc>Born with an affinity towards the storm, [PAWN_nameDef] quickly mastered control over lightning, and eventually became a highly skilled lightning mage. [PAWN_nameDef] rained bolts of lightning at [PAWN_pronoun] foes, and took no prisoners.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Intellectual</key>
@@ -45,21 +37,15 @@
 				<value>6</value>
 			</li>
 		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MageC]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBackstory_MageBase">
-		<defName>ESCP_Maormer_MageWaterBackstory</defName>
+		<defName>ESCP_MaormerBackstory_Adulthood_MageC</defName>
 		<title>water mage</title>
 		<titleShort>mage</titleShort>
 		<baseDesc>Born with an affinity towards the storm, [PAWN_nameDef] quickly mastered control over water, and eventually became a highly skilled water mage. [PAWN_nameDef] would turn once calm water into a maze of waves, sending enemy ships plunging into the depths.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Intellectual</key>
@@ -70,20 +56,14 @@
 				<value>5</value>
 			</li>
 		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MageD]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBackstory_MageBase">
-		<defName>ESCP_Maormer_MageSnakeBackstory</defName>
+		<defName>ESCP_MaormerBackstory_Adulthood_MageD</defName>
 		<title>snake mage</title>
 		<titleShort>mage</titleShort>
 		<baseDesc>While most scoff at the idea of a snake mage, those that have actually encountered one will rarely be found laughing. [PAWN_nameDef] had such great control over sea serpents, that [PAWN_pronoun] could sink entire fleets within seconds.</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Intellectual</key>
@@ -94,20 +74,14 @@
 				<value>5</value>
 			</li>
 		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
-		<workDisables>
-		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-	
+	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MageE]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBackstory_MageBase">
-		<defName>ESCP_Maormer_MageHealerBackstory</defName>
+		<defName>ESCP_MaormerBackstory_Adulthood_MageE</defName>
 		<title>restoration mage</title>
 		<titleShort>mage</titleShort>
 		<baseDesc>While [PAWN_nameDef] was magically gifted, [PAWN_pronoun] was never one for violence, and instead devoted [PAWN_possessive] skills to the art of restoration. Any who sought aid would have their please answered by [PAWN_nameDef].</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
-		<spawnCategories>
-		</spawnCategories>
 		<skillGains>
 			<li>
 				<key>Intellectual</key>
@@ -118,11 +92,8 @@
 				<value>4</value>
 			</li>
 		</skillGains>
-		<disallowedTraitsChance>
-		</disallowedTraitsChance>
 		<workDisables>
 			<li>Violent</li>
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
-
 </Defs>
