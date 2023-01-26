@@ -24,6 +24,7 @@
 		<description>Carriers of this gene exhibit some of the bonuses typically displayed by Maormer Leviathans, though at a comparatively weaker level.</description>
 		<iconPath>UI/Icons/Genes/ESCP_InheritedBonus/ESCP_GeneInheritedBonus_MaormerLeviathan</iconPath>
 		<statOffsets>
+			<EatingSpeed>0.25</EatingSpeed>
 			<MoveSpeed>-0.5</MoveSpeed>
 			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
