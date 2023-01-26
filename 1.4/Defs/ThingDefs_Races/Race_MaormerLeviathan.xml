@@ -29,9 +29,6 @@
 			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit,BiomesTeam.BiomesIslands">6</SwimSpeed>
 		</statBases>
 		<race>
-			<leatherDef>ESCP_LeatherMaormer</leatherDef>
-			<nameGenerator>ESCP_NamerPersonMaormerMale</nameGenerator>
-			<nameGeneratorFemale>ESCP_NamerPersonMaormerFemale</nameGeneratorFemale>
 			<baseBodySize>1.4</baseBodySize>
 		</race>
 		<alienRace>
@@ -63,6 +60,9 @@
 								<east>
 									<layerOffset>-0.332</layerOffset>
 								</east>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
 							</offsets>
 							<debug>false</debug>
 						</li>
@@ -89,13 +89,16 @@
 								<east>
 									<layerOffset>-0.332</layerOffset>
 								</east>
+								<south>
+									<layerOffset>0</layerOffset>
+								</south>
 							</offsets>
 							<debug>false</debug>
 						</li>
 					</bodyAddons>
 					<customDrawSize>(1.2, 1.2)</customDrawSize>
 					<customHeadDrawSize>(1.1, 1.1)</customHeadDrawSize>
-					<headOffset>(0.0, 0.05)</headOffset>
+					<!--<headOffset>(0.0, 0.05)</headOffset>-->
 				</alienPartGenerator>
 			</generalSettings>
 			<graphicPaths>

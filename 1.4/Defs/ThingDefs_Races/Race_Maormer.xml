@@ -22,11 +22,6 @@
 			<SocialImpact>0.8</SocialImpact>
 			<SwimSpeed MayRequireAnyOf="pyrce.swimming.modkit,BiomesTeam.BiomesIslands">4</SwimSpeed>
 		</statBases>
-		<race>
-			<leatherDef>ESCP_LeatherMaormer</leatherDef>
-			<nameGenerator>ESCP_NamerPersonMaormerMale</nameGenerator>
-			<nameGeneratorFemale>ESCP_NamerPersonMaormerFemale</nameGeneratorFemale>
-		</race>
 		<alienRace>
 			<generalSettings>
 				<notXenophobistTowards>
