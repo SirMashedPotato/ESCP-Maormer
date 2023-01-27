@@ -5,7 +5,7 @@
 		<xpath>/Defs/MeditationFocusDef[defName="Artistic"]/incompatibleBackstoriesAny</xpath>
 		<value>
 			<li>
-				<categoryName>ESCP_MaormerBackstory</categoryName>
+				<categoryName>ESCP_MaormerLeviathanBackstory_Childhood</categoryName>
 				<slot>Childhood</slot>
 			</li>
 		</value>
