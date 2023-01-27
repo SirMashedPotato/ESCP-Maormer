@@ -47,6 +47,7 @@
 					<ESCP_Industrial_MaormerMercenary_Gunner>10</ESCP_Industrial_MaormerMercenary_Gunner>
 					<ESCP_Industrial_MaormerMercenary_Heavy>6</ESCP_Industrial_MaormerMercenary_Heavy>
 					<ESCP_Industrial_MaormerMercenary_Slasher>3</ESCP_Industrial_MaormerMercenary_Slasher>
+					<ESCP_Industrial_MaormerLeviathanMercenary_Slasher>1</ESCP_Industrial_MaormerLeviathanMercenary_Slasher>
 					<ESCP_Industrial_MaormerMercenary_Sniper>7</ESCP_Industrial_MaormerMercenary_Sniper>
 					<ESCP_Industrial_MaormerMercenary_Elite>10</ESCP_Industrial_MaormerMercenary_Elite>
 					<ESCP_Industrial_MaormerPirateBoss>5</ESCP_Industrial_MaormerPirateBoss>
@@ -63,6 +64,7 @@
 					<ESCP_Industrial_MaormerThrasher>10</ESCP_Industrial_MaormerThrasher>
 					<ESCP_Industrial_MaormerLeviathanThrasher>5</ESCP_Industrial_MaormerLeviathanThrasher>
 					<ESCP_Industrial_MaormerMercenary_Slasher>10</ESCP_Industrial_MaormerMercenary_Slasher>
+					<ESCP_Industrial_MaormerLeviathanMercenary_Slasher>5</ESCP_Industrial_MaormerLeviathanMercenary_Slasher>
 					<PirateBoss>5</PirateBoss>
 				</options>
 			</li>
@@ -130,6 +132,7 @@
 					<ESCP_Industrial_MaormerLeviathanPirate>5</ESCP_Industrial_MaormerLeviathanPirate>
 					<Grenadier_Destructive>2</Grenadier_Destructive>
 					<ESCP_Industrial_MaormerMercenary_Slasher>3</ESCP_Industrial_MaormerMercenary_Slasher>
+					<ESCP_Industrial_MaormerLeviathanMercenary_Slasher>1</ESCP_Industrial_MaormerLeviathanMercenary_Slasher>
 					<ESCP_Industrial_MaormerMercenary_Sniper>10</ESCP_Industrial_MaormerMercenary_Sniper>
 					<ESCP_Industrial_MaormerMercenary_Gunner>10</ESCP_Industrial_MaormerMercenary_Gunner>
 					<ESCP_Industrial_MaormerMercenary_Elite>10</ESCP_Industrial_MaormerMercenary_Elite>
