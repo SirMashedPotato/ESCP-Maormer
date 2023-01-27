@@ -39,6 +39,7 @@
 					<ESCP_MaormerLeviathan_Tribal_Warrior>2</ESCP_MaormerLeviathan_Tribal_Warrior>
 					<ESCP_Maormer_Tribal_Archer>10</ESCP_Maormer_Tribal_Archer>
 					<ESCP_Maormer_Tribal_Hunter>10</ESCP_Maormer_Tribal_Hunter>
+					<ESCP_Maormer_Tribal_ViperMaster>4</ESCP_Maormer_Tribal_ViperMaster>
 					<ESCP_Maormer_Tribal_HeavyArcher>10</ESCP_Maormer_Tribal_HeavyArcher>
 					<ESCP_Maormer_Tribal_Berserker>5</ESCP_Maormer_Tribal_Berserker>
 					<ESCP_MaormerLeviathan_Tribal_Berserker>2</ESCP_MaormerLeviathan_Tribal_Berserker>
@@ -53,6 +54,7 @@
 				<options>
 					<ESCP_Maormer_Tribal_Archer>10</ESCP_Maormer_Tribal_Archer>
 					<ESCP_Maormer_Tribal_Hunter>10</ESCP_Maormer_Tribal_Hunter>
+					<ESCP_Maormer_Tribal_ViperMaster>4</ESCP_Maormer_Tribal_ViperMaster>
 					<ESCP_Maormer_Tribal_HeavyArcher>10</ESCP_Maormer_Tribal_HeavyArcher>
 					<ESCP_Maormer_Tribal_ChiefRanged>5</ESCP_Maormer_Tribal_ChiefRanged>
 				</options>
@@ -81,6 +83,7 @@
 					<ESCP_MaormerLeviathan_Tribal_Warrior>2</ESCP_MaormerLeviathan_Tribal_Warrior>
 					<ESCP_Maormer_Tribal_Archer>10</ESCP_Maormer_Tribal_Archer>
 					<ESCP_Maormer_Tribal_Hunter>10</ESCP_Maormer_Tribal_Hunter>
+					<ESCP_Maormer_Tribal_ViperMaster>4</ESCP_Maormer_Tribal_ViperMaster>
 					<ESCP_Maormer_Tribal_HeavyArcher>10</ESCP_Maormer_Tribal_HeavyArcher>
 					<ESCP_Maormer_Tribal_Berserker>5</ESCP_Maormer_Tribal_Berserker>
 					<ESCP_MaormerLeviathan_Tribal_Berserker>2</ESCP_MaormerLeviathan_Tribal_Berserker>
@@ -130,6 +133,7 @@
 					<ESCP_MaormerLeviathan_Tribal_Warrior>3</ESCP_MaormerLeviathan_Tribal_Warrior>
 					<ESCP_Maormer_Tribal_Archer>10</ESCP_Maormer_Tribal_Archer>
 					<ESCP_Maormer_Tribal_Hunter>10</ESCP_Maormer_Tribal_Hunter>
+					<ESCP_Maormer_Tribal_ViperMaster>4</ESCP_Maormer_Tribal_ViperMaster>
 					<ESCP_Maormer_Tribal_HeavyArcher>10</ESCP_Maormer_Tribal_HeavyArcher>
 					<ESCP_Maormer_Tribal_Berserker>7</ESCP_Maormer_Tribal_Berserker>
 					<ESCP_MaormerLeviathan_Tribal_Berserker>3</ESCP_MaormerLeviathan_Tribal_Berserker>
@@ -141,6 +145,7 @@
 				<options>
 					<ESCP_Maormer_Tribal_Archer>10</ESCP_Maormer_Tribal_Archer>
 					<ESCP_Maormer_Tribal_Hunter>10</ESCP_Maormer_Tribal_Hunter>
+					<ESCP_Maormer_Tribal_ViperMaster>4</ESCP_Maormer_Tribal_ViperMaster>
 					<ESCP_Maormer_Tribal_HeavyArcher>10</ESCP_Maormer_Tribal_HeavyArcher>
 					<ESCP_Maormer_Tribal_ChiefRanged>10</ESCP_Maormer_Tribal_ChiefRanged>
 				</options>

@@ -132,6 +132,29 @@
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>10~16</initialResistanceRange>
 	</PawnKindDef>
+	<!-- ==========[ESCP_Maormer_Tribal_ViperMaster]========== -->
+	<PawnKindDef ParentName="ESCP_Maormer_TribalHunterBase">
+		<defName>ESCP_Maormer_Tribal_ViperMaster</defName>
+		<label>viper master</label>
+		<combatPower>80</combatPower>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.BeastMaster">
+				<maxNumberOfPawns>1</maxNumberOfPawns>
+				<maxTotalCombatPower>95</maxTotalCombatPower>
+				<pawnKinds>
+					<li>ESCP_ReefViperKind</li>
+				</pawnKinds>
+				<bond>true</bond>
+			</li>
+		</modExtensions>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesAdulthood Inherit="False">
+					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
 	<!-- ==========[ESCP_Maormer_Tribal_Trader]========== -->
 	<PawnKindDef ParentName="ESCP_Maormer_TribalHunterBase">
 		<defName>ESCP_Maormer_Tribal_Trader</defName>
