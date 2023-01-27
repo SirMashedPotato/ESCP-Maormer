@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ========== [ESCP_Industrial_MaormerPirateRaidLootMaker] ========== -->
+	<ThingSetMakerDef ParentName="ESCP_GenericIndustrialPirateRaidLootMaker_Base">
+		<defName>ESCP_Industrial_MaormerPirateRaidLootMaker</defName>
+		<root Class="ThingSetMaker_MarketValue">
+			<fixedParams>
+				<filter>
+					<thingDefs>
+						
+					</thingDefs>
+				</filter>
+			</fixedParams>
+		</root>
+	</ThingSetMakerDef>
+</Defs>
