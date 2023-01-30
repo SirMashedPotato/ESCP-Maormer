@@ -38,25 +38,11 @@
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_Maormer_AdulthoodBackstory_MageBase]========== -->
-	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase" Name="ESCP_Maormer_AdulthoodBackstory_MageBase" Abstract="True">
-		<slot>Adulthood</slot>
-		<spawnCategories>
+	<AlienRace.AlienBackstoryDef ParentName="ESCP_GenericBackstoryAdulthood_MageBase" Name="ESCP_Maormer_AdulthoodBackstory_MageBase" Abstract="True">
+		<spawnCategories Inherit="False">
+			<li>ESCP_MaormerBackstory_Adulthood</li>
 			<li>ESCP_MaormerBackstory_AdulthoodMage</li>
 		</spawnCategories>
-		<forcedTraitsChance>
-			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>2</degree>
-				<chance>25</chance>
-			</li>
-			<li>
-				<defName>PsychicSensitivity</defName>
-				<degree>1</degree>
-				<chance>100</chance>
-			</li>
-		</forcedTraitsChance>
-		<maleCommonality>15</maleCommonality>
-		<femaleCommonality>15</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
 	
 	<!-- ==========[ESCP_MaormerLeviathan_ChildhoodBase]========== -->
