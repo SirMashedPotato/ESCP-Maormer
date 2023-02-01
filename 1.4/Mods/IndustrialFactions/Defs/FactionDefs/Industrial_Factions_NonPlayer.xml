@@ -146,8 +146,6 @@
 		<defName>ESCP_Industrial_MaormerNonPlayerFaction_Pirate</defName>
 		<label>Maormer pirates (industrial)</label>
 		<description>A loose confederation of Maormer pirate gangs who've agreed to mostly fight outsiders instead of fighting each other.\n\nPirates don't sow, they don't build, and they rarely trade. Driven by a blood-and-honour culture that values personal strength and ruthlessness, they enrich themselves by raiding and robbing their more productive neighbours.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry gunpowder weapons, though some prefer to stab victims at close range.</description>
-		<permanentEnemy>true</permanentEnemy>
 		<factionNameMaker>ESCP_Maormer_NamerFactionRaider</factionNameMaker>
-		<configurationListOrderPriority>40</configurationListOrderPriority>
 	</FactionDef>
 </Defs>
