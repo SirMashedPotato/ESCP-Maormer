@@ -323,7 +323,7 @@
 	<!-- ==========[ESCP_MaormerLeviathanBackstory_Adulthood_StormSharkB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerLeviathanBackstory_Adulthood_StormSharkBase">
 		<defName>ESCP_MaormerLeviathanBackstory_Adulthood_StormSharkB</defName>
-		<title>snakeskin beserker</title>
+		<title>snakeskin berserker</title>
 		<titleShort>snakeskin</titleShort>
 		<baseDesc>The Storm Sharks put [PAWN_nameDef]'s animalistic nature to great use, they would just need to provoke [PAWN_objective] a little, and off [PAWN_pronoun] would go. Of course there was always a chance this would backfire, which is why [PAWN_nameDef] had several handlers to follow [PAWN_objective] around.</baseDesc>
 		<spawnCategories>
