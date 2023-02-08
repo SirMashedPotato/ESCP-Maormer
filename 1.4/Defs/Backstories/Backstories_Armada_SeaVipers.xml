@@ -20,8 +20,8 @@
 	<!-- ==========[ESCP_MaormerBackstory_Adulthood_SeaViperA]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_MaormerBackstory_Adulthood_SeaViperBase">
 		<defName>ESCP_MaormerBackstory_Adulthood_SeaViperA</defName>
-		<title>Sea Vipers beserker</title>
-		<titleShort>beserker</titleShort>
+		<title>Sea Vipers berserker</title>
+		<titleShort>berserker</titleShort>
 		<baseDesc>While [PAWN_nameDef] was a fairly low ranking member of the Sea Vipers, [PAWN_pronoun] was quite well known for [PAWN_possessive] combat prowess. Preferring to dual wield axes, [PAWN_nameDef] would frequently enter a battle frenzy, showing complete disregard for any life threatening wounds [PAWN_pronoun] may be suffering from.</baseDesc>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
