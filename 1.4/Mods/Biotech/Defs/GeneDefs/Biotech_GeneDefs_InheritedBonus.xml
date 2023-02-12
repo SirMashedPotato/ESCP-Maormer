@@ -17,7 +17,6 @@
 		<displayOrderInCategory>8</displayOrderInCategory>
 	</GeneDef>
 	<!-- ==========[ESCP_GeneInheritedBonus_MaormerLeviathan]========== -->
-	<!-- TODO -->
 	<GeneDef ParentName="ESCP_InheritedRacialBonus_Base">
 		<defName>ESCP_GeneInheritedBonus_MaormerLeviathan</defName>
 		<label>Leviathan blood</label>
