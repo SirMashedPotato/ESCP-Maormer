@@ -11,10 +11,6 @@
 				<thingDef>SculptureSmall</thingDef>
 				<styleDef>ESCP_Maormeri_SculptureSmall</styleDef>
 			</li>
-			<li>
-				<thingDef>StandingLamp</thingDef>
-				<styleDef>ESCP_Maormeri_StandingLamp</styleDef>
-			</li>
 		</thingDefStyles>
 	</StyleCategoryDef>
 </Defs>

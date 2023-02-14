@@ -8,12 +8,4 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 	</ThingStyleDef>
-	<!-- ==========[ESCP_Maormeri_StandingLamp]========== -->
-	<ThingStyleDef>
-		<defName>ESCP_Maormeri_StandingLamp</defName>
-		<graphicData>
-			<texPath>Things/Building/BuildingStyles/ESCP_Maormeri/ESCP_MaormeriLanternMetal</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-	</ThingStyleDef>
 </Defs>
