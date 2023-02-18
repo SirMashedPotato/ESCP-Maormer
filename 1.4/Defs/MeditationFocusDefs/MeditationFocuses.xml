@@ -12,6 +12,40 @@
 				<categoryName>ESCP_MaormerLeviathanBackstory_Childhood</categoryName>
 				<slot>Childhood</slot>
 			</li>
+			<!-- Biotech Maormer childhoods -->
+			<li>
+				<categoryName>ESCP_MaormerBiotechBackstory_Newborn</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerBiotechBackstory_Child</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerBiotechBackstory_Adult</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerBiotechBackstory_VatGrown</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<!-- Biotech Leviathan childhoods -->
+			<li>
+				<categoryName>ESCP_MaormerLeviathanBiotechBackstory_Newborn</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerLeviathanBiotechBackstory_Child</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerLeviathanBiotechBackstory_Adult</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>ESCP_MaormerLeviathanBiotechBackstory_VatGrown</categoryName>
+				<slot>Childhood</slot>
+			</li>
 		</requiredBackstoriesAny>
 	</MeditationFocusDef>
 </Defs>

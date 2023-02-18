@@ -164,6 +164,39 @@
 					<customHeadDrawSize>(1.1, 1.1)</customHeadDrawSize>
 					<!--<headOffset>(0.0, 0.05)</headOffset>-->
 				</alienPartGenerator>
+				<!-- =====[Biotech backstory bullshit]===== -->
+				<newbornBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerLeviathanBiotechBackstory_Newborn</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</newbornBackstoryFilter>
+				<childBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerLeviathanBiotechBackstory_Child</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</childBackstoryFilter>
+				<adultBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerLeviathanBiotechBackstory_Adult</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</adultBackstoryFilter>
+				<adultVatBackstoryFilter>
+					<li>
+						<categories>
+							<li>ESCP_MaormerLeviathanBiotechBackstory_VatGrown</li>
+						</categories>
+						<commonality>1</commonality>
+					</li>
+				</adultVatBackstoryFilter>
 			</generalSettings>
 			<graphicPaths>
 				<body>Things/Pawn/Humanlike/ESCP_ScaledBody/Body/</body>
