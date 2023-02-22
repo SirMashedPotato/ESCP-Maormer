@@ -94,7 +94,7 @@
 			<li Class="VanillaPsycastsExpanded.PawnGroupMaker_PsycasterRaid" MayRequire="VanillaExpanded.VPsycastsE">
 				<!-- VE Psycaster raid -->
 				<kindDef>Combat</kindDef>
-				<commonality>70</commonality>
+				<commonality>100</commonality>
 				<options>
 					<ESCP_Maormer_Tribal_Penitent>5</ESCP_Maormer_Tribal_Penitent>
 					<ESCP_Maormer_Tribal_Warrior>5</ESCP_Maormer_Tribal_Warrior>
