@@ -14,6 +14,9 @@
 				<value>4</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_MaormerBackstory_Adulthood_PlantsB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
@@ -28,6 +31,9 @@
 				<value>6</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -52,6 +58,9 @@
 		<workDisables>
 			<li>Intellectual</li>
 		</workDisables>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodFarmer</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>

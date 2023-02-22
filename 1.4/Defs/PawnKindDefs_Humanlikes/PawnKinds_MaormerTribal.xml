@@ -23,6 +23,9 @@
 					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
 					<li>ESCP_MaormerBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_MaormerBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -104,11 +107,21 @@
 		<defName>ESCP_Maormer_Tribal_Hunter</defName>
 		<label>hunter</label>
 		<combatPower>60</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categoriesAdulthood Inherit="False">
-					<li>TribalHunter</li>
+				<categoriesChildhood>
+					<li>ESCP_MaormerBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
+					<li>ESCP_MaormerBackstory_AdulthoodHunter</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 		<gearHealthRange>0.5~1.8</gearHealthRange>
@@ -144,11 +157,20 @@
 				<bond>true</bond>
 			</li>
 		</modExtensions>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
-				<categoriesAdulthood Inherit="False">
+				<categoriesChildhood>
+					<li>ESCP_MaormerBackstory_Childhood</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodBeastMaster</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 	</PawnKindDef>

@@ -15,6 +15,9 @@
 		</skillGains>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodMiner</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MiningB]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBase">
@@ -33,6 +36,9 @@
 				<value>3</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodMiner</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -57,6 +63,9 @@
 		<workDisables>
 			<li>Intellectual</li>
 		</workDisables>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodMiner</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
@@ -80,6 +89,9 @@
 		<workDisables>
 			<li>Cleaning</li>
 		</workDisables>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodMiner</li>
+		</spawnCategories>
 		<maleCommonality>80</maleCommonality>
 		<femaleCommonality>80</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>

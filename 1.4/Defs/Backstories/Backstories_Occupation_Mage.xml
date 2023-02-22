@@ -37,6 +37,9 @@
 				<value>6</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>ESCP_MaormerBackstory_AdulthoodLightningMage</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!-- ==========[ESCP_MaormerBackstory_Adulthood_MageC]========== -->
 	<AlienRace.AlienBackstoryDef ParentName="ESCP_Maormer_AdulthoodBackstory_MageBase">

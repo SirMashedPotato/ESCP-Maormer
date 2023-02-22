@@ -3,6 +3,11 @@
 	<MeditationFocusDef>
 		<defName>ESCP_MaormerSerpentMeditation</defName>
 		<label>serpentine</label>
+		<modExtensions>
+            <li Class="VanillaPsycastsExpanded.MeditationFocusExtension" MayRequire="VanillaExpanded.VPsycastsE">
+                <icon>World/WorldObjects/Expanding/ESCP_MaormerSettlement</icon>
+            </li>
+        </modExtensions>
 		<requiredBackstoriesAny>
 			<li>
 				<categoryName>ESCP_MaormerBackstory_Childhood</categoryName>
