@@ -17,6 +17,9 @@
 					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
 					<li>ESCP_MaormerBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_MaormerBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -38,6 +41,9 @@
 					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
 					<li>ESCP_MaormerBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_MaormerBackstory_Exclusion</li>
 				</excludeAdulthood>
@@ -59,6 +65,9 @@
 					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
 					<li>ESCP_MaormerBackstory_Adulthood</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_MaormerBackstory_Exclusion</li>
+				</excludeChildhood>
 				<excludeAdulthood>
 					<li>ESCP_MaormerBackstory_Exclusion</li>
 				</excludeAdulthood>
