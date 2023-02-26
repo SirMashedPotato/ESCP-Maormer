@@ -176,6 +176,9 @@
 			<li>ManualDumb</li>
 			<li>ManualSkilled</li>
 		</workDisables>
+		  <forcedHediffs>
+		  <li MayRequire="SirMashedPotato.ESCP.NecromanticThralls">ESCP_NecromanticThralls_ThrallStorage</li>
+		</forcedHediffs>
 		<maleCommonality>0</maleCommonality>
 		<femaleCommonality>1</femaleCommonality>
 	</AlienRace.AlienBackstoryDef>
