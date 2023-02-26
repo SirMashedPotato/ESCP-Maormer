@@ -116,5 +116,8 @@
 				<chance>100</chance>
 			</li>
 		</forcedTraitsChance>
+		<forcedHediffs>
+			<li MayRequire="SirMashedPotato.ESCP.NecromanticThralls">ESCP_NecromanticThralls_ThrallStorage</li>
+		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
 </Defs>
