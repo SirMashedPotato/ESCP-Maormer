@@ -2,6 +2,12 @@
 <Defs>
 	<!-- ==========[ESCP_MaormerSculptureBase]========== -->
 	<ThingDef ParentName="SculptureBase" Name="ESCP_MaormerSculptureBase" Abstract="True">
+		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_MaormerStyle</dominantStyleCategory>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
 		<comps Inherit="False">
 			<li>
 				<compClass>CompQuality</compClass>
@@ -39,10 +45,7 @@
 					</li>
 					<li Class="FocusStrengthOffset_BuildingDefsWithQuality">
 						<defs>
-							<!--
 							<li>ESCP_MaormerSerpentSculptureSmall</li>
-							<li>ESCP_MaormerSerpentSculptureLarge</li>
-							-->
 							<li>ESCP_MaormerSerpentSculptureGrand</li>
 							<li>ESCP_MaormerSerpentTotemLeft</li>
 							<li>ESCP_MaormerSerpentTotemRight</li>
@@ -74,62 +77,29 @@
 			</li>
 			<li Class="CompProperties_Styleable"/>
 		</comps>
-		<dominantStyleCategory MayRequire="Ludeon.RimWorld.Ideology">ESCP_MaormerStyle</dominantStyleCategory>
 	</ThingDef>
 	<!--================================ Sculptures ======================================-->
-	<!--
-  <ThingDef ParentName="ESCP_MaormerSculptureBase">
-    <defName>ESCP_MaormerSerpentSculptureSmall</defName>
-    <label>small serpent sculpture</label>
-    <description>A torso-sized piece of material sculpted into a serpentine form.</description>
-    <graphicData>
-      <graphicClass>Graphic_Random</graphicClass>
-      <texPath>Things/Building/Art/ESCP_Maormer_SerpentSculptureSmall</texPath>
-    </graphicData>
-    <fillPercent>0.35</fillPercent>
-    <rotatable>false</rotatable>
-    <statBases>
-      <MaxHitPoints>90</MaxHitPoints>
-      <Mass>3</Mass>
-      <Beauty>50</Beauty>
-      <WorkToMake>18000</WorkToMake>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
-    </statBases>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>50</costStuffCount>
-  </ThingDef>
-
-  <ThingDef ParentName="ESCP_MaormerSculptureBase">
-    <defName>ESCP_MaormerSerpentSculptureLarge</defName>
-    <label>large serpent sculpture</label>
-    <description>A person-sized piece of material sculpted into a serpentine form.</description>
-    <castEdgeShadows>true</castEdgeShadows>
-    <graphicData>
-      <graphicClass>Graphic_Random</graphicClass>
-      <texPath>Things/Building/Art/ESCP_Maormer_SerpentSculptureLarge</texPath>
-      <drawSize>(3,3)</drawSize>
-    </graphicData>
-    <fillPercent>0.5</fillPercent>
-    <rotatable>false</rotatable>
-    <statBases>
-      <MaxHitPoints>150</MaxHitPoints>
-      <Mass>7</Mass>
-      <Beauty>100</Beauty>
-      <WorkToMake>30000</WorkToMake>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
-    </statBases>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>100</costStuffCount>
-  </ThingDef>
-	-->
+	<!-- ==========[ESCP_MaormerSerpentSculptureSmall]========== -->
+	<ThingDef ParentName="ESCP_MaormerSculptureBase">
+		<defName>ESCP_MaormerSerpentSculptureSmall</defName>
+		<label>small serpent sculpture</label>
+		<description>A torso-sized piece of material sculpted into a serpentine form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/Art/ESCP_Maormer_SerpentSculptureSmall</texPath>
+		</graphicData>
+		<fillPercent>0.35</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Mass>3</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		
+		<costStuffCount>50</costStuffCount>
+	</ThingDef>
 	<!-- ==========[ESCP_MaormerSerpentSculptureGrand]========== -->
 	<ThingDef ParentName="ESCP_MaormerSculptureBase">
 		<defName>ESCP_MaormerSerpentSculptureGrand</defName>
@@ -152,11 +122,7 @@
 			<WorkToMake>105000</WorkToMake>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">60</StyleDominance>
 		</statBases>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
-			<li>Stony</li>
-		</stuffCategories>
+
 		<costStuffCount>500</costStuffCount>
 	</ThingDef>
 	<!-- ==========[ESCP_MaormerSculptureBase]========== -->
@@ -169,8 +135,7 @@
 			<drawOffset>0,0,1</drawOffset>
 		</graphicData>
 		<fillPercent>0.5</fillPercent>
-		<rotatable>false</rotatable>
-		<size>(1,1)</size>
+		<rotatable>false</rotatable><size>(1,1)</size>
 		<uiIconScale>0.6</uiIconScale>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
@@ -180,11 +145,7 @@
 			<WorkToMake>55000</WorkToMake>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">30</StyleDominance>
 		</statBases>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
-			<li>Stony</li>
-		</stuffCategories>
+
 		<costStuffCount>250</costStuffCount>
 	</ThingDef>
 	<!-- ==========[ESCP_MaormerSerpentTotemLeft]========== -->

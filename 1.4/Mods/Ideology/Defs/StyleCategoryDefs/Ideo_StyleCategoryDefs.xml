@@ -7,10 +7,7 @@
 		<soundOngoingRitual>ESCP_RitualSustainer_Maormeri</soundOngoingRitual>
 		<ritualVisualEffectDef>ESCP_Maormeri</ritualVisualEffectDef>
 		<thingDefStyles>
-			<li>
-				<thingDef>SculptureSmall</thingDef>
-				<styleDef>ESCP_Maormeri_SculptureSmall</styleDef>
-			</li>
+
 		</thingDefStyles>
 	</StyleCategoryDef>
 </Defs>
