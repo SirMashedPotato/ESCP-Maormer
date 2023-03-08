@@ -101,6 +101,20 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 					</bodyTypes>
+					<headTypes Inherit="False">
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Average_Normal</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Average_Pointy</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Average_Wide</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Narrow_Normal</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Narrow_Pointy</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Female_Narrow_Wide</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Average_Normal</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Average_Pointy</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Average_Wide</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Narrow_Normal</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Narrow_Pointy</li>
+						<li>ESCP_HeadMerScaledColouredEyes_Male_Narrow_Wide</li>
+					</headTypes>
 					<bodyAddons Inherit="False">
 						<!-- ========== [Ear right] ========== -->
 						<li>
@@ -200,7 +214,6 @@
 			</generalSettings>
 			<graphicPaths>
 				<body>Things/Pawn/Humanlike/ESCP_ScaledBody/Body/</body>
-				<head>Things/Pawn/Humanlike/ESCP_ScaledMerWithEyes/Head/</head>
 			</graphicPaths>
 			<raceRestriction>
 				<blackGeneTags>
